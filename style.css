@@ -55,6 +55,15 @@ padding:8px 0;
 border-bottom:1px solid #e5e7eb;
 color:#333; /* list text color */
 }
+
+.sidebar a{
+text-decoration:none;
+color:#333;
+}
+
+.sidebar a:hover{
+color:#7c3aed; /* purple hover */
+}
 /* CONTENT */
 
 .content{
