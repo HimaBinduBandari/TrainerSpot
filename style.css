@@ -64,6 +64,7 @@ color:#333;
 .sidebar a:hover{
 color:#7c3aed; /* purple hover */
 }
+
 /* CONTENT */
 
 .content{
@@ -275,11 +276,17 @@ color:#111;
 margin-bottom:6px;
 }
 
+.section-title h3{
+font-size:24px;
+font-weight:700;
+color:#111;
+margin-bottom:6px;
+}
+
 .section-title p{
 color:#666;
 font-size:14px;
 }
-
 
 
 
@@ -300,6 +307,11 @@ font-size:14px;
 
 .stores-header h2 {
   font-size: 22px;
+  font-weight: 600;
+  color: #222;
+}
+.stores-header h3 {
+  font-size: 20px;
   font-weight: 600;
   color: #222;
 }
