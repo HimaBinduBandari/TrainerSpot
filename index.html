@@ -11,17 +11,14 @@
 
 <body>
 
-<header class="header">
-<div class="header-container">
-<div class="logo">Trainer<span>Spot</span></div>
-<nav class="menu">
-<a href="#">Home</a>
-<a href="#">Coupons</a>
-<a href="#">Stores</a>
-<a href="#">Categories</a>
-</nav>
-</div>
-</header>
+<div id="header"></div>
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
 <div class="layout">
 
  
@@ -39,7 +36,12 @@
   </div>
 
   <div class="stores-container">
-    
+<a href="https://himabindubandari.github.io/TrainerSpot/in28minutes.html" class="store-link">
+  <div class="store-card">
+    <img src="https://img-c.udemycdn.com/user/200_H/13363166_a747.jpg" alt="Udemy Coupons">
+    <span class="cashback">in28minutes</span>
+  </div>
+</a>    
     
 
 <a href="https://himabindubandari.github.io/TrainerSpot/wealthyeducation" class="store-link">
