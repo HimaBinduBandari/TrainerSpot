@@ -288,6 +288,54 @@ color:#666;
 font-size:14px;
 }
 
+/* DROPDOWN MENU */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Submenu box */
+.submenu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  min-width: 180px;
+  padding: 8px 0;
+
+  display: none;
+  flex-direction: column;
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+/* Submenu links */
+.submenu a {
+  margin: 0; /* override your .menu a margin */
+  padding: 10px 16px;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.submenu a:hover {
+  background: #f3f4f6;
+  color: #8b5cf6;
+}
+
+/* Show dropdown */
+.dropdown:hover .submenu {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
 
